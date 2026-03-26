@@ -1,17 +1,35 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(14, 14, 14);
   }
   
   h1 {
     color: white;
     text-align: center;
-  }
+    margin:auto;
   
-div {
-    display:flex;
-}
+  }
+
+  img {
+    margin:auto;
+    float: left;
+    clip-path: ellipse(40% 50%);
+    shape-outside: ellipse(45% 50%);
+  }
+
+ h2 {
+   color:rgb(247, 245, 244);
+   text-align: center;
+   margin:auto;
+ }
+
+ form{
+  color:aliceblue;
+  text-align: center;
+  margin:auto;
+ }
 
   p {
+    color:aliceblue;
     font-family: verdana;
     font-size: 20px;
   }
